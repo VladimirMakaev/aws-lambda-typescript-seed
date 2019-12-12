@@ -1,0 +1,57 @@
+{
+  "name": "my-lambda-function",
+  "version": "1.0.0",
+  "description": "A sample boostrap package for creating aws lambda in TypeScript",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "mocha -r ts-node/register --recursive ./src/**/*.spec.ts* --timeout 5000",
+    "clean": "rimraf dist && rimraf *.zip && rimraf *.tgz",
+    "build": "npm run clean && tsc",
+    "update-code": "npm pack && ts-node ./build/update-code.ts",
+    "update-config": "npm pack && ts-node ./build/update-config.ts",
+    "prepack": "npm run build",
+    "postpack": "ts-node ./build/postpack.ts",
+    "create": "npm pack && ts-node ./build/create-function.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirMakaev/aws-lambda-typescript-seed.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "seed"
+  ],
+  "author": "Vladimir Makayev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VladimirMakaev/aws-lambda-typescript-seed/issues"
+  },
+  "homepage": "https://github.com/VladimirMakaev/aws-lambda-typescript-seed#readme",
+  "dependencies": {
+    "aws-sdk": "^2.588.0",
+    "lodash": "^4.17.15",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.37",
+    "@types/chai": "^4.2.7",
+    "@types/lodash": "^4.14.149",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.17",
+    "mocha": "^6.2.2",
+    "pkginfo": "^0.4.1",
+    "rimraf": "^3.0.0",
+    "tar-to-zip": "^2.0.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "bundledDependencies": [
+    "tslib",
+    "lodash"
+  ]
+}
