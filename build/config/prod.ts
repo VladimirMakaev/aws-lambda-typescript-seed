@@ -1,8 +1,8 @@
 export = {
-    Variables: {
+    variables: {
         "Variable1": "ProdValue"
     },
-    Runtime: "nodejs10.x",
-    Role: "{InsertRoleARNHERE}",
-    Handler: "package/dist/index.handler",
+    runtime: "nodejs10.x",
+    role: "{TODO_Insert_RoleARN}",
+    handler: "package/dist/index.handler",
 }
