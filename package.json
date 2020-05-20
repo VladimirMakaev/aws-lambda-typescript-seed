@@ -45,7 +45,7 @@
     "@types/node": "^12.12.17",
     "mocha": "^6.2.2",
     "pkginfo": "^0.4.1",
-    "rimraf": "^3.0.0",
+    "rimraf": "^3.0.2",
     "tar-to-zip": "^2.0.0",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
