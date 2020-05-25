@@ -43,7 +43,7 @@
     "@types/lodash": "^4.14.149",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.17",
-    "mocha": "^6.2.2",
+    "mocha": "^7.2.0",
     "pkginfo": "^0.4.1",
     "rimraf": "^3.0.0",
     "tar-to-zip": "^2.0.0",
