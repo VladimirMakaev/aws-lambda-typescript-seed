@@ -33,22 +33,22 @@
   },
   "homepage": "https://github.com/VladimirMakaev/aws-lambda-typescript-seed#readme",
   "dependencies": {
-    "aws-sdk": "^2.588.0",
+    "aws-sdk": "^2.705.0",
     "lodash": "^4.17.15",
-    "tslib": "^1.10.0"
+    "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.37",
-    "@types/chai": "^4.2.7",
-    "@types/lodash": "^4.14.149",
-    "@types/mocha": "^5.2.7",
-    "@types/node": "^12.12.17",
-    "mocha": "^6.2.2",
+    "@types/aws-lambda": "^8.10.57",
+    "@types/chai": "^4.2.11",
+    "@types/lodash": "^4.14.157",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.14",
+    "mocha": "^8.0.1",
     "pkginfo": "^0.4.1",
-    "rimraf": "^3.0.0",
+    "rimraf": "^3.0.2",
     "tar-to-zip": "^2.0.0",
-    "ts-node": "^8.5.4",
-    "typescript": "^3.7.3"
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
   },
   "bundledDependencies": [
     "tslib",
