@@ -38,7 +38,7 @@
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.57",
+    "@types/aws-lambda": "^8.10.59",
     "@types/chai": "^4.2.11",
     "@types/lodash": "^4.14.157",
     "@types/mocha": "^7.0.2",
