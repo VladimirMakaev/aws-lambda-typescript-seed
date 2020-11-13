@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/VladimirMakaev/aws-lambda-typescript-seed#readme",
   "dependencies": {
-    "aws-sdk": "^2.738.0",
+    "aws-sdk": "^2.791.0",
     "lodash": "^4.17.19",
     "tslib": "^2.0.0"
   },
